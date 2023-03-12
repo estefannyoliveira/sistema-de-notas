@@ -8,12 +8,12 @@ function carregar(){
 
     var nota = (n1+n2+n3)/3
     var media = nota.toFixed(2)
-    
+
     if (media >=6){
         img.src = 'imagens/emojifesta22.png'
         msg.innerHTML = `Sua média foi <strong>${media}</strong> e você está: <strong>APROVADO!</strong>`
         document.body.style.background = "green"
-    }else if (media >=5 && media <=5.9) {
+    }else if (media >=5 && media <=5.99) {
         img.src = 'imagens/emojineutro2.png'
         msg.innerHTML = `Sua média foi <strong>${media}</strong> e você está de <strong>recuperação!</strong>`
         document.body.style.background = "#ffcf21"
